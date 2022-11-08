@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T01:29:17.834Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="0tbpmcV-kkUqxOclFHUW" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-08T01:31:36.615Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="XmolBFnw0KjsLEg3dMYH" version="20.5.1" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="データベース">
     <mxGraphModel dx="1120" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -64,11 +64,19 @@
         <mxCell id="daQx8nhkMeJHNlXXjuKO-3" value="" style="html=1;whiteSpace=wrap;shape=isoCube2;backgroundOutline=1;isoAngle=15;" parent="1" vertex="1">
           <mxGeometry x="520" y="60" width="90" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="fT9O1GAQfltOt-9JD3o6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JlvIoMDnqGtTmx8Zxkya-1" target="JlvIoMDnqGtTmx8Zxkya-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JlvIoMDnqGtTmx8Zxkya-1" value="AWS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="300" y="60" width="100" height="60" as="geometry" />
+          <mxGeometry x="280" y="130" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fT9O1GAQfltOt-9JD3o6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JlvIoMDnqGtTmx8Zxkya-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="JlvIoMDnqGtTmx8Zxkya-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="410" y="520" width="60" height="60" as="geometry" />
+          <mxGeometry x="290" y="280" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fT9O1GAQfltOt-9JD3o6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="fT9O1GAQfltOt-9JD3o6-8" target="JlvIoMDnqGtTmx8Zxkya-2">
           <mxGeometry relative="1" as="geometry" />
@@ -83,7 +91,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fT9O1GAQfltOt-9JD3o6-4" value="ユーザ登録" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="270" width="100" height="100" as="geometry" />
+          <mxGeometry x="60" y="275" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="fT9O1GAQfltOt-9JD3o6-8" value="ユーザ&lt;br&gt;検索機能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="410" y="375" width="60" height="30" as="geometry" />
