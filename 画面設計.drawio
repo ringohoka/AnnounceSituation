@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T02:38:02.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="XnH7NpVQhA9yOnYQmS3S" version="20.5.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-08T02:42:46.151Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="9iPSKDxfpj8HftB11VXX" version="20.5.1" type="github" pages="4">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="データベース">
-    <mxGraphModel dx="1120" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1232" dy="1679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -153,7 +153,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d7qJkDk4H5h1hYpUEvZl" name="ログイン画面">
-    <mxGraphModel dx="1120" dy="772" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1232" dy="579" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -162,9 +162,6 @@
         </mxCell>
         <mxCell id="4vWUh8c-ta3M9G29cFrp-2" value="N1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="269" y="192" width="290" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="4vWUh8c-ta3M9G29cFrp-5" value="題名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="290" y="50" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="4vWUh8c-ta3M9G29cFrp-6" value="L1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="384" y="490" width="60" height="30" as="geometry" />
@@ -182,6 +179,12 @@
         </mxCell>
         <mxCell id="4vWUh8c-ta3M9G29cFrp-13" value="N2" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="269.5" y="324" width="291" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R2cwC9U38rWkM6AgpcMy-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="228" y="50" width="372" height="478" as="geometry" />
+        </mxCell>
+        <mxCell id="4vWUh8c-ta3M9G29cFrp-5" value="題名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="R2cwC9U38rWkM6AgpcMy-1" vertex="1">
+          <mxGeometry x="61" y="46" width="250" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
