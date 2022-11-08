@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T02:47:06.597Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sqOLXpLh6rKHa4Fiwk0I" version="20.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-08T02:50:35.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="D6GLmw9K1sBoIFhKGZGU" version="20.5.1" type="github" pages="5">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="データベース">
-    <mxGraphModel dx="1120" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1232" dy="1679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -205,12 +205,38 @@
     </mxGraphModel>
   </diagram>
   <diagram id="huQsumM1TR4Pyjn4buuY" name="アカウント登録">
-    <mxGraphModel dx="1867" dy="1287" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2367" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="x-69Ml7xElQD1x6NzjO3-1" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+        <mxCell id="x-69Ml7xElQD1x6NzjO3-1" value="" style="line;strokeWidth=2;html=1;" parent="1" vertex="1">
           <mxGeometry y="579" width="810" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ELTE9bglUY7gS5-ZYG2S-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="60" width="380" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ELTE9bglUY7gS5-ZYG2S-2" value="題名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ELTE9bglUY7gS5-ZYG2S-1">
+          <mxGeometry x="110" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ELTE9bglUY7gS5-ZYG2S-3" value="N1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ELTE9bglUY7gS5-ZYG2S-1">
+          <mxGeometry x="65" y="120" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ELTE9bglUY7gS5-ZYG2S-8" value="N2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ELTE9bglUY7gS5-ZYG2S-1">
+          <mxGeometry x="65" y="200" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ELTE9bglUY7gS5-ZYG2S-7" value="N3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ELTE9bglUY7gS5-ZYG2S-1">
+          <mxGeometry x="65" y="280" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ELTE9bglUY7gS5-ZYG2S-9" value="B1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ELTE9bglUY7gS5-ZYG2S-1">
+          <mxGeometry x="230" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ELTE9bglUY7gS5-ZYG2S-10" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Component&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Type&lt;br/&gt;+ Attribute2: Type&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="620" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ELTE9bglUY7gS5-ZYG2S-11" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="ELTE9bglUY7gS5-ZYG2S-10">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
