@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T02:55:59.292Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="_Y0kXzxIcFq1AN_OiTVz" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-08T02:59:14.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35" etag="0QrtdiS6RgbK--zzu1UA" version="20.5.1" type="github" pages="6">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="データベース">
     <mxGraphModel dx="1232" dy="1679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -246,6 +246,23 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VMbjB3i9z5Vgx9QJMFLP-1" value="" style="swimlane;startSize=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="360" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="hrMxkZi_o-teKYe5RCkv-4" value="題名" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="VMbjB3i9z5Vgx9QJMFLP-1">
+          <mxGeometry x="114" y="30" width="116" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hrMxkZi_o-teKYe5RCkv-1" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="14" y="600" width="800" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="hrMxkZi_o-teKYe5RCkv-2" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Component&lt;/b&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Attribute1: Type&lt;br/&gt;+ Attribute2: Type&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="290" y="640" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hrMxkZi_o-teKYe5RCkv-3" value="" style="shape=component;jettyWidth=8;jettyHeight=4;fontSize=18;" vertex="1" parent="hrMxkZi_o-teKYe5RCkv-2">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
