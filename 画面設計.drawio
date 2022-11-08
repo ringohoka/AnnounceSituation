@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T01:26:05.795Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="0SAw68d_kZ8C59YD2PH2" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-08T01:27:35.732Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Qfalq2_YFEsQ3NaPucMU" version="20.5.1" type="github" pages="3">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="データベース">
     <mxGraphModel dx="1120" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -73,6 +73,9 @@
         <mxCell id="fT9O1GAQfltOt-9JD3o6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="fT9O1GAQfltOt-9JD3o6-8" target="JlvIoMDnqGtTmx8Zxkya-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fT9O1GAQfltOt-9JD3o6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;" edge="1" parent="1" source="fT9O1GAQfltOt-9JD3o6-11" target="daQx8nhkMeJHNlXXjuKO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fT9O1GAQfltOt-9JD3o6-3" value="状態確認" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="260" width="100" height="100" as="geometry" />
         </mxCell>
@@ -89,6 +92,15 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="310" as="sourcePoint" />
             <mxPoint x="440" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fT9O1GAQfltOt-9JD3o6-11" value="IoT状態変化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="205" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fT9O1GAQfltOt-9JD3o6-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;" edge="1" parent="1" source="fT9O1GAQfltOt-9JD3o6-3" target="fT9O1GAQfltOt-9JD3o6-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="260" as="sourcePoint" />
+            <mxPoint x="565" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
