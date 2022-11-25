@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ユーザー設定</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h3>プロフィール編集</h3>
+    
+    <div>
+        <input type="text" id="name" placeholder="ユーザーネーム" name="name" required minlength="2" maxlength="50" size="30">
+    </div>
+    <div>
+        <input type="email" id="email" placeholder="メールアドレス" pattern=".+@globex\.com" size="30" required>
+    </div>
+    <div>
+        <input type="password" id="pass" placeholder="パスワード" name="password" minlength="256" size="30" required>
+    </div>
+    <div><input type="submit" value="保存">
+        <input type="submit" value="アカウントの削除">
+    </div>
+</body>
+
+</html>
