@@ -1,0 +1,43 @@
+#click-btn {
+  display: block;
+  margin: 20px auto;
+  background-color: purple;
+  color: white;
+  border: 0;
+  padding: 6px 10px;
+}
+
+#popup-wrapper { /*ポップアップ*/
+  background-color: rgba(0, 0, 0, .5); /*後ろの画面の色*/
+  position: fixed; /*後ろの色の高さ（上の部分のみ）*/
+  top: 0; /*ボタンの後ろまで色をつける */
+  left: 0;/*左端まで色をつける*/
+  width: 100%; /*ポップアップの位置*/
+  height: 100%; /* 後ろの色の高さ（下の部分のみ） */
+  display: none;
+}
+
+#popup-inside {
+  text-align: center; /*ポップアップの全体文字位置*/
+  width: 100%;
+  max-width: 300px;
+  background: white;
+  margin: 10% auto;
+  padding: 20px;
+  position: relative;
+}
+
+#message a {
+  background: purple;
+  color: white;
+  text-decoration: none;
+  padding: 6px 10px;
+}
+
+#close {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  cursor: pointer;
+}
+
