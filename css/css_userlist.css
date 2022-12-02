@@ -1,0 +1,45 @@
+
+#div1{/* 全体の位置 */
+  font-family: arial;
+  font-size: 24px;
+  margin: auto;
+  width: 250px;
+  height: 200px;
+}
+
+.groupname{ /*グループ名位置*/
+    position: relative;
+    left: 50px;
+}
+
+/* 検索ボックスのデザイン */
+#form2{
+position:relative;
+/* right: 15px; */
+max-width:300px;	
+margin-bottom:15px;
+}                    
+#sbox2{
+height: 30px;
+padding:0 20px; 
+position:absolute; 
+left:0;
+top:0; 
+border-radius:2px;
+outline:0;
+background:#eee;	
+}
+#sbtn2{
+height:35px; 
+position:absolute; 
+left:210px;/*アイコン左右の位置調整*/
+top:0;
+background:none;
+color:#666;
+border:none;
+font-size:20px;/*アイコンサイズ*/
+}
+#sbtn5:hover{
+color:#7fbfff;
+}
+/* 検索ボックス */
