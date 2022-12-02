@@ -23,9 +23,7 @@
             <div id="popup-inside">
                 <div id="close">x</div>
                 <div id="message">
-                    <h2>あの人気のマンガが...</h2>
-                    <p>今なら80%オフ！</p>
-                    <a href="#">ゲットする</a>
+                    <a href="#">作成</a>
                 </div>
             </div>
         </div>
