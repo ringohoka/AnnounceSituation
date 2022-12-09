@@ -13,7 +13,7 @@
     <p>ログイン</p>
     <form method="post">
         <input type="email" class="emale" name="ngmale" placeholder="メールアドレス"><br>
-        <input type="password" class="mypass" name="npass" placeholder="パスワード15桁以内" maxlength="15"><br>
+        <input type="password" class="mypass" name="npass" placeholder="パスワード" maxlength="15"><br>
         <button>登録</button>
     </form>
 

@@ -20,9 +20,10 @@
         <input type="email" id="email" placeholder="メールアドレス" pattern=".+@globex\.com" size="30" required>
     </div>
     <div>
-        <input type="password" id="pass" placeholder="パスワード" name="password" minlength="256" size="30" required>
+        <input type="password" id="pass" placeholder="パスワード15文字以内" name="password" minlength="256" size="30" required>
     </div>
-    <div><input type="submit" value="保存">
+    <div>
+        <input type="submit" id="commit" value="保存">
         <input type="submit" id="click-btn" value="アカウントの削除">
         <div id="popup-wrapper">
             <div id="popup-inside">
