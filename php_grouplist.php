@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>グループ一覧</title>
+    <title></title>
     <meta charset="UTF-8">
     <!-- <link rel="stylesheet" href="css/css_newgroup_grouplist.css"><!-- グループ作成用 -->
     <!-- <link rel="stylesheet" href="css/css_groupin_grouplist.css">グループ加入用 -->
