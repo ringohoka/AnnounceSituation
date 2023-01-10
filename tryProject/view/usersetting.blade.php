@@ -39,7 +39,7 @@
                 <div id="popup-inside">
                     <div id="message">
                         <p>本当に削除しますか？</p>
-                        <a href="php_usersetting.php">キャンセル</a>
+                        <a href="/user_userlist/">キャンセル</a>
                         <a href="#">削除</a>
                     </div>
                 </div>

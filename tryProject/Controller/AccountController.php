@@ -54,11 +54,10 @@ class AccountController extends Controller
         $accounts = new Account();
         $accounts -> name = $request->input('name');
         $accounts -> mail = $request->input('mail');
-        $accounts -> pass = $request->input('pass');
-
-        DB::transaction(function () use ($accounts){
-            $accounts -> save();
-        });
+        $accounts -> pass = \Hash::make($request->input('pass'));
+            DB::transaction(function () use ($accounts){
+                $accounts -> save();
+            });
 
         $request -> session() -> regenerateToken();
         return redirect('user_userlist');

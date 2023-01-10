@@ -19,12 +19,12 @@ class GroupSeeder extends Seeder
                 [
                     'id' => 1,
                     'accounts_id'=> 1,
-                    'groupid'=> 124,
+                    'group_lists_id'=> 1,
                 ],
                 [
                     'id' => 2,
                     'accounts_id'=> 2,
-                    'groupid' => 125,
+                    'group_lists_id' => 2,
                 ]
             ]);
         });

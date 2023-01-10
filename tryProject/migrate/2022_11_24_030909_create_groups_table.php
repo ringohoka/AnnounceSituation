@@ -20,9 +20,10 @@ class CreateGroupsTable extends Migration
         Schema::create('groups', function (Blueprint $table) {
             $table->Integer('id');
             $table->foreignId('accounts_id')->constrained('accounts')->onDelete('cascade');
-            $table->char('groupid',3);
+            $table->foreignId('group_lists_id')->constrained('group_lists')->onDelete('cascade');
             $table->timestamps();
-            $table->primary(['groupid','accounts_id']);
+            $table->softDeletes();
+            $table->primary(['group_lists_id','accounts_id']);
         });
     }
 
